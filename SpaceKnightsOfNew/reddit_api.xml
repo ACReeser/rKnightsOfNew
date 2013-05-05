@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reddit_api_config>
+<seconds_between_api_calls>2</seconds_between_api_calls>
+<seconds_before_cache_invalid>30</seconds_before_cache_invalid>
+<default_content_limit>25</default_content_limit>
+<object_mappings kind="comment_kind" object="t1"/>
+<object_mappings kind="message_kind" object="t4"/>
+<object_mappings kind="more_kind" object ="more"/>
+<object_mappings kind="redditor_kind" object="t2"/>
+<object_mappings kind="submission_kind" object="t3"/>
+<object_mappings kind="subreddit_kind" object="t5"/>
+<object_mappings kind="userlist_kind" object="UserList"/>
+<domain>http://www.reddit.com/</domain>
+<!--
+message_kind:    t7
+submission_kind: t6
+subreddit_kind:  t5
+  -->
+</reddit_api_config>
